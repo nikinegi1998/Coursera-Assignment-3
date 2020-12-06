@@ -33,8 +33,28 @@ h2{
     padding: 3%;    
     font-weight: bold;
 }
+.menu-area{
+    position: relative; 
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6em;
+}
 .menu-area .menu{
+    position: relative;
+    width: 75%;  
+    margin: 20px 13%;  
     background-color: #4ABDAC;
+}
+.menu h3{
+    color: black !important;
+    top: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0 0;    
+}
+.menu p{
+    padding: 1% 5%;
+    text-align: justify;
 }
 /* End of menu items */
 
@@ -70,6 +90,7 @@ h2{
         width: 94%;
     }
 }
+
 @media (max-width:767px){
     .menu-items-1, .menu-items-2, .menu-items-3{
         float: left;
