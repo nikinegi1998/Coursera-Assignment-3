@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    background-color: #F7B733;
+}
+
+/* Menu Bar */
+.container-fluid{    
+    background-color: #FC4A1A;
+}
+.navbar-brand{
+    font-size: 2.7rem;
+    color: #fff;
+}
+.navbar-nav a li{
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+.navbar-nav a li span:hover{
+    color: #fff;
+}
+/* End of menu bar */
+
+/* Menu items starts */
+h2{
+    text-align: center;
+    padding: 3%;    
+    font-weight: bold;
+}
+.menu-area{
+    position: relative; 
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6em;
+}
+.menu-area .menu{
+    position: relative;
+    width: 75%;  
+    margin: 20px 13%;  
+    background-color: #4ABDAC;
+}
+.menu h3{
+    color: black !important;
+    top: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0 0;    
+}
+.menu p{
+    padding: 1% 5%;
+    text-align: justify;
+}
+/* End of menu items */
+
+/* Responsive designing */
+@media (min-width:992px){
+    .menu-items-1, .menu-items-2, .menu-items-3{
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .menu-items-1{
+        width: 30%;
+    }
+    .menu-items-2{
+        width: 30%;
+    }
+    .menu-items-3{
+        width: 30%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .menu-items-1, .menu-items-2, .menu-items-3{
+        float: left;
+        margin: 15px;
+    }
+    .menu-items-1{
+        width: 45%;
+    }
+    .menu-items-2{
+        width: 45%;
+    }
+    .menu-items-3{
+        width: 94%;
+    }
+}
+
+@media (max-width:767px){
+    .menu-items-1, .menu-items-2, .menu-items-3{
+        float: left;
+        margin: 5px;
+    }
+    .menu p{
+        padding-top: 30px;
+    }
+    .menu-items-1{
+        width: 95%;
+    }
+    .menu-items-2{
+        width: 95%;
+    }
+    .menu-items-3{
+        width: 95%;
+    }
+}
